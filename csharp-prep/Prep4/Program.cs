@@ -32,6 +32,7 @@ class Program
         {
             sum += number;
         }
+        Console.WriteLine($"The sum is: {sum}"); // I did this =D
 
         // part 2: compute the average
         // Notice that we first cast the sum variable to be a float. Otherwise, because
@@ -58,7 +59,7 @@ class Program
             
 
         }
-        Console.WriteLine($"The max is: {max}");
+        Console.WriteLine($"The largest number  is: {max}");
 
 
     }
